@@ -1,0 +1,77 @@
+/* Feuille de styles CSS */
+
+body {
+    font-family: sans-serif;
+    background-color: #eeeeee;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 32px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.lego {
+    color: #007bff;
+    font-style: italic;
+}
+
+a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.spec {
+    font-size: 12px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid;
+}
+
+th {
+    border-bottom: 3px solid;
+}
+
+.image {
+    text-align: center;
+}
+
+.inp {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="mail"] {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px #dddddd solid;
+}
+
+input[type="radio"] {
+    background-color: grey;
+}
+
+select {
+    padding: 4px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LEGO Webstore</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>LEGO WebStore</h1>
+
+        <hr>
+        <ul>
+            <li><a href="produit.html">Produit</a></li>
+            <li><a href="acheter.html">Acheter</a></li>
+        </ul>
+        <hr>
+
+        <h2>Acheter des <span class="lego">LEGO</span></h2>
+
+        Remplissez le formulaire ci-dessous pour commander des <span class="lego">LEGO</span>!
+
+        <h3>Informations personnelles</h3>
+
+        <form action="">
+                <p>Civilité:</p>
+                <p><input type="radio" name="civ"><span>M</span> 
+                <input type="radio" name="civ"> Mme.</p>
+            <div class="inp">
+                <label for="nom">Nom:</label> <br>
+                <input type="text" name="nom">
+            </div>
+            <div class="inp">
+                <label for="prenom">Prénom</label> <br>  
+                <input type="text" name="prenom">
+            </div>
+            <div class="inp">
+                <label for="mail">Mail:</label> <br>
+                <input type="mail" name="mail">
+            </div>
+            
+            <h3>Informations de livraison</h3>
+
+            <p>Quantité commandée:</p>
+            <select name="boites" id="">
+                <option value="">1 boîte</option>
+                <option value="">2 boîtes</option>
+                <option value="">3 boîtes</option>
+                <option value="">4 boîtes</option>
+                <option value="">5 boîtes</option>
+            </select>
+
+            <p>Adresse de livraison:</p>
+            <textarea name="adresse" id="" cols="20" rows="3"></textarea>
+
+            <h3>Confirmation</h3>
+
+            <input type="checkbox" name="corfirm">
+            J'ai relu ma commande et certifie que ces informations sont correctes.
+
+            <input type="submit" value="Confirmer la commande">
+        </form>
+        <hr>
+
+
+
+        <footer>
+            <a href="">Retour en haut de page</a>
+            <p>TP1 : Découverte de HTML et CSS</p> 
+            <p>L2 Développement Web - 2018</p>  
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
